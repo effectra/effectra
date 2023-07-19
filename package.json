@@ -1,0 +1,21 @@
+{
+  "name": "lazy",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^4.0.0",
+    "core-js": "^3.26.1",
+    "file-loader": "^6.2.0",
+    "sass": "^1.54.9",
+    "sass-loader": "^13.0.2",
+    "axios": "^1.2.2",
+    "webpack-notifier": "^1.15.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
