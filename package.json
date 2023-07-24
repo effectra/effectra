@@ -1,6 +1,6 @@
 {
-  "name": "lazy",
-  "version": "1.0.0",
+  "name": "effectra",
+  "version": "1.0.1",
   "scripts": {
     "dev": "encore dev",
     "watch": "encore dev --watch",

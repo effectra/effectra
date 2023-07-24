@@ -41,6 +41,8 @@ return [
         \Effectra\Core\Cmd\Provider\DeleteProvider::class,
         /** Cache */
         \Effectra\Core\Cmd\Cache\ClearCache::class,
+        /** Test */
+        \Effectra\Core\Cmd\Test\RunTest::class,
 
     ]
 ];

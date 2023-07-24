@@ -23,7 +23,9 @@ return [
         \Effectra\Core\Providers\GeneratorClassProvider::class,
         \Effectra\Core\Providers\GenerateMiddlewareProvider::class,
         \Effectra\Core\Providers\LocalizationProvider::class,
+        \Effectra\Core\Providers\CacheInterfaceProvider::class,
         \Effectra\Core\Providers\CacheProvider::class,
+        \Effectra\Core\Providers\GoogleProvider::class,
         /** ADD YOUR SERVICES */
 
     ],
