@@ -8,6 +8,7 @@ use Effectra\Router\Route;
 return function (Route $router) {
 
     $router->get('/',function(){
+        
         return View::render('index');
     });
     
