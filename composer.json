@@ -5,7 +5,7 @@
     "keywords": ["framework", "aval"],
     "license": "MIT",
     "require": {
-        "effectra/framework": "^2.0",
+        "effectra/framework": "^2.2",
         "vlucas/phpdotenv": "^5.4"
     },
     "autoload": {
