@@ -7,6 +7,7 @@ return [
         \Effectra\Core\Cmd\Serve::class,
         /** Router */
         \Effectra\Core\Cmd\Router\Routes::class,
+        \Effectra\Core\Cmd\Router\AddRouter::class,
         /** View */
         \Effectra\Core\Cmd\View\Views::class,
         \Effectra\Core\Cmd\View\GenerateView::class,
@@ -43,6 +44,8 @@ return [
         \Effectra\Core\Cmd\Cache\ClearCache::class,
         /** Test */
         \Effectra\Core\Cmd\Test\RunTest::class,
+        /** Key */
+        \Effectra\Core\Cmd\Key\GenerateKey::class,
 
     ]
 ];

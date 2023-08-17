@@ -2,10 +2,10 @@
     "name": "effectra/effectra",
     "type": "project",
     "description": "The Effectra Framework.",
-    "keywords": ["framework", "aval"],
+    "keywords": ["framework", "Effectra"],
     "license": "MIT",
     "require": {
-        "effectra/framework": "^2.2",
+        "effectra/framework": "^2.3",
         "vlucas/phpdotenv": "^5.4"
     },
     "autoload": {
@@ -22,6 +22,11 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "@php aval key:generate"
+        ]
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
