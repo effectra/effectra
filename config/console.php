@@ -46,6 +46,8 @@ return [
         \Effectra\Core\Cmd\Test\RunTest::class,
         /** Key */
         \Effectra\Core\Cmd\Key\GenerateKey::class,
+        /** Log */
+        \Effectra\Core\Cmd\Log\ClearLog::class,
 
     ]
 ];

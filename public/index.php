@@ -2,10 +2,6 @@
 
 use Effectra\Core\Request;
 
-define('APP_START', microtime(true));
-
-define("APP_NAME", "Effectra");
-
 require __DIR__.'/../vendor/autoload.php';
 
 /*
@@ -16,7 +12,7 @@ require __DIR__.'/../vendor/autoload.php';
 */
 
 $app = require_once __DIR__ . '/../bootstrap/app.php';
-        
+
 $request = Request::fromGlobal();
 
 $response = $app->handle($request);
