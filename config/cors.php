@@ -9,4 +9,5 @@ return [
     'headers' => ['Content-Type', 'Authorization'],
     'allow-origin' => ['*'],
     'paths' => ['api/*'],
+    'optionsSuccessStatus' => 204
 ];
